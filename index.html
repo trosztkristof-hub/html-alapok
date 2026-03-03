@@ -6,39 +6,64 @@
     <title>Document</title>
     <style>
         body{
-            background-color: darkslategrey ;
+            background-color: rgb(197, 197, 197) ;
         }
-        h1{
-            color: red
+        h1{ 
+            color: black
+        
         }
-        h2{
-            color:aqua
-
-        }
-        h3{
-            color: beige;
-        }
+        h1{text-align: center;}
+        
+        
         p{
-            font-size: 16pt;
-            text-decoration: underline;
-            font-weight: bold;
+            font-size: 20pt;
+            text-decoration:overline underline;
+            font-weight: 500;
+
+        
+        }
+        div {
+            display: block;
 
         }
-        p.macska{color: brown;
-            background-color: blueviolet;
+        .txts{
+            background-color: crimson;
+            width: 50%;
+        
         }
+        .img-vid{
+            width: 45%;
+        display: flex;
+        background-color: black;        
+    }
 
+    .table {
+        text-align: center;
+        font-size: 60pt;
+        font-family: Helvetica;
+        font-weight: lighter;
+        background-color: pink;
+
+    }
+                 
+            
         
     </style>
     </head>
 <body>
-    <h1>Html alapok</h1>
-    <h2>hol vagyok</h2>
-    <p>szöveg valami</p>
-    <p class="macska">FŐ TEXT</p>
-    <img src="hdriv.png" width="500" height="300"/>
-    <video src="video.mp4" width="560" height="315"></video>  
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/oATBj-ZXAnM?si=PWN4Do3WaDZN3Cv-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <div class="txts">
+        <h1><b>Html alapok<b></h1>
+            <p class="macska"><small>3D MODELL<small></p>
+    </div>
+        <div class="img-vid"
+             <img src="hdriv.png" alt="FUJIFILM XT-10 3D MODELL" width="500" height="300"/>
+            <video src="video.mp4" width="560" height="315"></video>  
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/oATBj-ZXAnM?si=PWN4Do3WaDZN3Cv-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    
+    <div class="table"
     <table border="1">
             <thead>
             <th>
@@ -52,6 +77,7 @@
                 </tr>
             </tbody>
             <table>
+    </div>  
 
 </body>
 </html>
