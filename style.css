@@ -30,46 +30,68 @@
 
 body {
     /* Háttérszín */
-    background-color: #ffffff;
+    background: rgb(22, 22, 22) url("bg.jpg") no-repeat fixed center; 
     /* Betűtípus */
-    font-family: sans-serif;
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 20;
+    font-weight: 300;
     /* Betűszín */
-    color: #333333;
+    color: #d3d3d3;
     /* Sormagasság */
-    line-height: 1.6;
+    line-height: 2;
 }
 
 
 /* --- OLDAL KERET --- */
 .oldal-keret {
-    /* Az egész oldal kerete / szélessége */
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 180px;
+  margin-left: 60px;
 }
 
 
 /* --- FEJLÉC --- */
 .fejlec {
-    /* Háttér, padding, szöveg igazítás */
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 .fooldal-cim {
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 30;
+    font-weight: 800;    
+    font-style: bold;
     /* Főcím stílusa */
 }
 
-.kiemeles {
-    /* A "CSS" szó kiemelése a címben */
+.kiemeles { font-family: "Cascadia Mono", sans-serif;
+    font-size: 45;
+    font-style: italic;
+    text-decoration: line-through;
+    
 }
 
-.alcim {
+.alcim { font-family: "Cascadia Mono", sans-serif;
+    
+    
     /* Alcím stílusa */
 }
 
 
 /* --- BEVEZETŐ --- */
-.bevezeto {
+.bevezeto {width: 800px;
+padding: 18px;
+margin: 20px;
+text-align: justify;
+text-justify: newspaper;
     /* A bevezető szekció háttere, padding-ja */
 }
 
-.bevezeto-szoveg p {
+.bevezeto-szoveg p {display: flexbox;
+    
     /* Bevezető bekezdések */
 }
 
